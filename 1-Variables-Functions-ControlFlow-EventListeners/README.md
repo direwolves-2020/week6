@@ -271,4 +271,8 @@ More serious manipulations of template strings are illustrated here
 2) Basic calculator -> Be able to create a basic calculator which allows you to input 2 numbers and either multiply or divide them
 3) Array Cardio - additional JS methods 
 
+## Resources
+
+[Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
+
 
