@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    background: #41a7cf;
+    font-size: 30 px;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    box-shadow: 2px 4px #dd5037;
+    background-color: rgb(223, 133, 73);
+    border-radius: 5%;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.fizzlist {
+    font-size: 25px;
+    text-align: center;
+}
