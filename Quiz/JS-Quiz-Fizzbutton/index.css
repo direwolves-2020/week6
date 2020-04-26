@@ -20,7 +20,7 @@ html {
     width: 20%;
 }
 
-.fizzlist {
+.fizzlist ul {
     font-size: 25px;
     text-align: center;
 }

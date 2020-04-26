@@ -6,9 +6,15 @@ export default class App {
         this.fizzVal = 1;        
     }
 
-    masterFunction() {
+    fizzFunc() {
+        if(this.fizzVal <=100){
         this.addToList(this.fizzOperation());
         this.fizzVal ++
+        }
+        else if (this.fizzVal ==101) {
+            this.fizzVal ++
+            return this.addToList('too high dude');
+        }
     }
 
     //this function updates the view with the fizz value
