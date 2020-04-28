@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: grey;
+    font-family: "calibri";
+    font-size: 48px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#btn, #clear{
+    color: grey;
+    font-size: 24px;
+}
+
+#btn:hover, #clear:hover{
+    color: black;
+}
+
+.buttons{
+    padding: 5px;
+    margin-left:40px;
+    display: inline;
+    width: 10%;
+
+}
+
+#clear{
+    visibility: hidden;
+}
+
+.content{   
+    margin: auto;
+    text-align: center; 
+    width: 65%;
+    display: block;
+}
+
+#col1, #col2{
+    display: inline-block;
+    font-family: "calibri";
+    text-align: left;
+    padding: 15px;
+}
