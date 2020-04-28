@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: grey;
+    font-family: "calibri";
+    font-size: 48px;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: "calibri";
+}
+
+.ticker_form{
+    text-align: center;
+    padding: 15px;
+}
+
+#price{
+    margin: 20px;
+    text-align: center;
+}
