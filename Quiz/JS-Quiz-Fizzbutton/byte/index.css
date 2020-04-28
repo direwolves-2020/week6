@@ -1,0 +1,45 @@
+html {
+    background: url(fibonacci.jpg) bottom center;
+    background-size: cover;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+}
+#button {
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: darkblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px rgb(58, 57, 57);
+  }
+  
+  #button:hover {background-color: #32e1f8}
+  
+  #button:active {
+    background-color: #000000;
+    box-shadow: 0 5px rgb(58, 57, 57);
+    transform: translateY(4px);
+  }
+
+.out {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 6rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    float: left;
+  }
+
+.out:hover {background-color: #32e1f8}
