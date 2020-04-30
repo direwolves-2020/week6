@@ -1,11 +1,11 @@
-function run(){
+function run() {
     fizzBuzz();
     printArray();
     showHideClearButton();
- }
+}
 
 let btn = document.getElementById('btn');
-btn.addEventListener('click', (e) => {
+btn.addEventListener('click', function() {
     run();
 });
 
@@ -43,10 +43,14 @@ function showHideClearButton(){
   }
 }
 
+let clearBtn = document.getElementById('clear');
+clearBtn.addEventListener('click', function() { //(e) => {
+   clearScreen();
+});
 
 function clearScreen(){
-    document.getElementById("col1").innerHTML = ''
-    document.getElementById("col2").innerHTML = ''
+    document.getElementById("col1").innerHTML = '';
+    document.getElementById("col2").innerHTML = '';
     showHideClearButton();
 }
 
